@@ -16,6 +16,8 @@ augeas
 This is the augeas module.
 Configure and manage augeas
 
+See http://projects.puppetlabs.com/projects/puppet/wiki/Puppet_Augeas
+
 == Supported Platforms
 
 * Debian
