@@ -2,8 +2,6 @@
 # Author::    Sebastien Varrette (Sebastien.Varrette@uni.lu)
 # Copyright:: Copyright (c) 2011 Sebastien Varrette
 # License::   GPLv3
-#
-# Time-stamp: <Sun 2011-08-21 23:13 svarrette>
 # ------------------------------------------------------------------------------
 # = Class: augeas
 #
@@ -56,11 +54,11 @@ class augeas::common {
     require augeas::params
 
     # Install basic packages de Augeas
-    package { $augeas::params::augeas_packages:
-        ensure  => "${augeas::params::version}",
+    package { $augeas::params::augeas_packages :
+        ensure  => "${augeas::version}",
     }
 
-    package { $augeas::params::libaugeas_ruby_packages:
+    package { $augeas::params::libaugeas_ruby_packages :
         ensure  => present,
     }
 }
