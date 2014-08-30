@@ -1,6 +1,6 @@
 {
   "name": "svarrette-augeas",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "S. Varrette",
   "mail": "sebastien.varrette@uni.lu",
   "summary": "Puppet module to manage Augeas, a nice a configuration editing tool",
@@ -9,7 +9,7 @@
   "source": "https://github.com/Falkor/puppet-augeas",
   "project_page": "https://github.com/Falkor/puppet-augeas",
   "issues_url": "https://github.com/Falkor/puppet-augeas/issues",
-  "forge_url":  "https://forge.puppetlabs.com/svarrette/augeas",
+  "forge_url": "https://forge.puppetlabs.com/svarrette/augeas",
   "dependencies": [
     {
       "name": "puppetlabs-stdlib",
