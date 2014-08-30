@@ -1,6 +1,6 @@
 -*- mode: markdown; mode: auto-fill; fill-column: 80 -*-
 
-     Time-stamp: <Sat 2014-08-30 15:17 svarrette>
+     Time-stamp: <Sat 2014-08-30 15:57 svarrette>
 
 -------------------------------------------
 
@@ -74,10 +74,10 @@ You can submit bug / issues / feature request using the
 
 -------------------------
 
-## Implementation details
+## Contributing to this project
 
 If you want to contribute to the code, you shall be aware of the way this module
-is organized implementation details.   
+is organized and managed.
 
 ### Git Branching Model
 
@@ -206,4 +206,4 @@ You should become familiar (if not yet) with Git. Consider these resources:
 
 The design of this module is inspired by the following contributions:
 
-* camptocamp[https://github.com/camptocamp/puppet-augeas/]
+* [camptocamp](https://github.com/camptocamp/puppet-augeas/)

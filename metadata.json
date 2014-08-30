@@ -4,6 +4,7 @@
   "author": "S. Varrette",
   "mail": "sebastien.varrette@uni.lu",
   "summary": "Puppet module to manage Augeas, a nice a configuration editing tool",
+    "description": "This Puppet module is an helper to manage [Augeas](http://augeas.net/), a configuration API.",
   "license": "gpl-3.0",
   "source": "https://github.com/Falkor/puppet-augeas",
   "project_page": "https://github.com/Falkor/puppet-augeas",
