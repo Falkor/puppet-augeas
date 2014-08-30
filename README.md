@@ -1,40 +1,46 @@
 -*- mode: markdown; mode: auto-fill; fill-column: 80 -*-
 
-     Time-stamp: <Lun 2014-08-25 23:31 svarrette>
+     Time-stamp: <Sat 2014-08-30 15:17 svarrette>
 
 -------------------------------------------
 
-# svarrette-augeas Puppet Module -- Puppet module to manage Augeas, a nice a configuration editing tool
+# svarrette-augeas Puppet Module
 
-Puppet module to manage Augeas, a nice a configuration editing tool
+Puppet module to manage Augeas, a nice a configuration editing tool -- see <http://augeas.net/>
 
-* Author(s): S. Varrette
-* Copyright: `Copyright (c) 2014 S. Varrette`  
-* [gpl-3.0 Licence](LICENSE)
+* Author: S. Varrette
+* Copyright: `Copyright (c) 2011 S. Varrette`  
+* [GPL-3.0 Licence](LICENSE)
 * [Puppet Forge](https://forge.puppetlabs.com/)
 * [Online Project Page](https://github.com/Falkor/puppet-augeas)  -- [Sources](https://github.com/Falkor/puppet-augeas) -- [Issues](https://github.com/Falkor/puppet-augeas/issues)
 
 ## Synopsis
 
-Puppet module to manage Augeas, a nice a configuration editing tool
+This Puppet module is an helper to manage [Augeas](http://augeas.net/), a
+configuration API. 
 
 The various operations of this repository are piloted from a `Rakefile` which
 assumes that you have [RVM](https://rvm.io/) installed on your system.
+
+### Supported Platforms
+
+* Debian
+
+### Usage
+
+      include augeas      
 
 ## Puppet Module Layout
 
        svarrette-augeas/       # Main directory for the 'svarrette-augeas' module
            `-- metadata.json     # Module configuration - cf [here](https://docs.puppetlabs.com/puppet/latest/reference/modules_publishing.html#write-a-metadatajson-file)
            `-- README.md         # This file
-           `-- files/            # Contains static files, which managed nodes can download
            `-- lib/              # custom facts/type/provider definitions
            `-- manifests/
                 `-- init.pp      # Main manifests file
                 `-- classes/     # Hold manifest for svarrette-augeas classes/
-                     `-- svarrette-augeas.pp         # defines the svarrette-augeas class
-                     `-- svarrette-augeas-params.pp  # svarrette-augeas module variables 
-                `-- definitions/ # Hold manifest for svarrette-augeas definitions
-                     `-- svarrette-augeas-mydef.pp   # defines the svarrette-augeas::mydef definition                    `-- templates/        # Module ERB template files
+                     `-- augeas.pp         # defines the svarrette-augeas class
+                     `-- augeas-params.pp  # svarrette-augeas module variables 
            `-- tests/            # Contains examples showing how to declare the module’s classes and defined type
            `-- spec/             # Contains spec tests for any plugins in the lib directory
            `-- Rakefile          # Definition of the [rake](https://github.com/jimweirich/rake) tasks
@@ -196,3 +202,8 @@ You should become familiar (if not yet) with Git. Consider these resources:
 * [Github:help](http://help.github.com/mac-set-up-git/)
 * [Git reference](http://gitref.org/)
 
+### Puppet/Augeas
+
+The design of this module is inspired by the following contributions:
+
+* camptocamp[https://github.com/camptocamp/puppet-augeas/]

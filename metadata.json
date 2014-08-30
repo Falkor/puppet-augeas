@@ -1,0 +1,39 @@
+{
+  "name": "svarrette-augeas",
+  "version": "0.1.1",
+  "author": "S. Varrette",
+  "mail": "sebastien.varrette@uni.lu",
+  "summary": "Puppet module to manage Augeas, a nice a configuration editing tool",
+  "license": "gpl-3.0",
+  "source": "https://github.com/Falkor/puppet-augeas",
+  "project_page": "https://github.com/Falkor/puppet-augeas",
+  "issues_url": "https://github.com/Falkor/puppet-augeas/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_range": ">= 1.0.0"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    }
+  ],
+  "tags": [
+    "augeas"
+  ],
+  "classes": [
+    "augeas::params",
+    "augeas",
+    "augeas::common",
+    "augeas::debian",
+    "augeas::redhat"
+  ],
+  "definitions": [
+
+  ]
+}
