@@ -3,10 +3,11 @@
 # Augeas Puppet Module 
 
 [![Puppet Forge](http://img.shields.io/puppetforge/v/svarrette/augeas.svg)](https://forge.puppetlabs.com/svarrette/augeas)
-[![License](http://img.shields.io/:license-gpl3.0-blue.svg)](LICENCE)
+[![License](http://img.shields.io/:license-gpl3.0-blue.svg)](LICENSE)
 ![Supported Platforms](http://img.shields.io/badge/platform-debian-lightgrey.svg)
 
 Puppet module to manage Augeas, a nice a configuration editing tool
+
       Copyright (c) 2014 S. Varrette <sebastien.varrette@uni.lu>
       
 
