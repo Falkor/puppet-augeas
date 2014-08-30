@@ -1,6 +1,6 @@
 {
   "name": "svarrette-augeas",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": "S. Varrette",
   "mail": "sebastien.varrette@uni.lu",
   "summary": "Puppet module to manage Augeas, a nice a configuration editing tool",
